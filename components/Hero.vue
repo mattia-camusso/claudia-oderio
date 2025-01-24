@@ -2,22 +2,22 @@
   <div class="hero-container">
     <div>
       <img
-        class="w-[80vw] md:h-[20vh] top-1/4 left-1/2 absolute transform -translate-x-1/2 -translate-y-1/2 z-10"
+        class="ml-24 md:h-[25vh] top-1/4 absolute transform -translate-y-1/2 left-0 z-10"
         src="../assets/svg/logo.svg"
         alt="Claudia Orderio Osteopata"
       />
     </div>
-    <h1 class="text-style-3 absolute bottom-4 left-0 w-[65vw] font-light z-3 text-center px-4 italic">
-      “Da oltre 20 anni aiuto persone di tutte le età a ritrovare <span class="font-normal">l’equilibrio</span>”
+    <h1 class="text-style-big absolute -bottom-3 leading-[4rem] left-8 w-[65vw] font-[300] z-3 text-center px-4">
+      "<span class="italic">Da oltre 20 anni aiuto persone di tutte le età a ritrovare </span><span class="font-[500]">l’equilibrio</span>”
     </h1>
     <img
     src="../assets/svg/banner.svg"
-    class="absolute bottom-0 z-2"
+    class="absolute -bottom-[20svh] z-2"
     alt="Osteopata valle d'aosta saint vincent"
   />
     <img
-    src="../assets/claudia.png"
-    class="w-[75vw] md:w-[33vw] absolute right-0 bottom-0"
+    src="../assets/claudia2.png"
+    class="w-[80vw] md:w-[40vw] absolute right-0 -bottom-[20svh]"
     alt="Claudia oderio osteopata"
   />
   </div>
@@ -27,7 +27,7 @@
 
 <style>
 .hero-container {
-  height: 100svh;
+  height: 120svh;
   width: 100vw;
   background-image: url("../assets/hero.png");
   background-size: cover;

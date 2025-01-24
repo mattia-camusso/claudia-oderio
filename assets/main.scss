@@ -1,10 +1,151 @@
 @font-face {
-  font-family: "Helvetica Neue",;
-  src: url("~/assets/fonts/HelveticaNeue.ttc") format("opentype");
+  font-family: "Helvetica Neue";
+  src: url("~/assets/fonts/HelveticaNeue-Black.woff2") format("woff2"),
+    url("~/assets/fonts/HelveticaNeue-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
 }
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("~/assets/fonts/HelveticaNeue-BlackItalic.woff2") format("woff2"),
+    url("~/assets/fonts/HelveticaNeue-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("~/assets/fonts/HelveticaNeue-Bold.woff2") format("woff2"),
+    url("~/assets/fonts/HelveticaNeue-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("~/assets/fonts/HelveticaNeue-HeavyItalic.woff2") format("woff2"),
+    url("~/assets/fonts/HelveticaNeue-HeavyItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("~/assets/fonts/HelveticaNeue-Italic.woff2") format("woff2"),
+    url("~/assets/fonts/HelveticaNeue-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("~/assets/fonts/HelveticaNeue-Heavy.woff2") format("woff2"),
+    url("~/assets/fonts/HelveticaNeue-Heavy.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("~/assets/fonts/HelveticaNeue-BoldItalic.woff2") format("woff2"),
+    url("~/assets/fonts/HelveticaNeue-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("~/assets/fonts/HelveticaNeue-Roman.woff2") format("woff2"),
+    url("~/assets/fonts/HelveticaNeue-Roman.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("~/assets/fonts/HelveticaNeue-LightItalic.woff2") format("woff2"),
+    url("~/assets/fonts/HelveticaNeue-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("~/assets/fonts/HelveticaNeue-ThinItalic.woff2") format("woff2"),
+    url("~/assets/fonts/HelveticaNeue-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("~/assets/fonts/HelveticaNeue-Medium.woff2") format("woff2"),
+    url("~/assets/fonts/HelveticaNeue-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("~/assets/fonts/HelveticaNeue-Light.woff2") format("woff2"),
+    url("~/assets/fonts/HelveticaNeue-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("~/assets/fonts/HelveticaNeue-MediumItalic.woff2") format("woff2"),
+    url("~/assets/fonts/HelveticaNeue-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("~/assets/fonts/HelveticaNeue-UltraLightItalic.woff2")
+      format("woff2"),
+    url("~/assets/fonts/HelveticaNeue-UltraLightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("~/assets/fonts/HelveticaNeue-Thin.woff2") format("woff2"),
+    url("~/assets/fonts/HelveticaNeue-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("~/assets/fonts/HelveticaNeue-UltraLight.woff2") format("woff2"),
+    url("~/assets/fonts/HelveticaNeue-UltraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
 @font-face {
   font-family: "Chronicle Display";
-  src: url("~/assets/fonts/ChronicleDisplay.otf") format("opentype");
+  src: url("~/assets/fonts/ChronicleDisplay.otf") format("truetype");
 }
 @tailwind base;
 @tailwind components;
@@ -20,19 +161,20 @@
   --color-2: #1a0b02;
   --color-2-transparent: #1828257c;
   --color-2-transparent-not: #182825b2;
-  --color-3: #E1F5B7;
-  --color-4: #A31236;
+  --color-3: #e1f5b7;
+  --color-4: #a31236;
 }
 
 * {
   scroll-behavior: smooth;
-  overflow-x: clip;
+  overflow-x: hidden;
 }
 
 @layer base {
   body {
     @apply font-sans text-base;
     font-weight: 400;
+    font-family: var(--font-sans);
     background-color: var(--color-1);
     color: var(--color-2);
     scrollbar-width: thin;
@@ -56,11 +198,11 @@
 }
 
 .text-style-big {
-  font-size: clamp(1.9rem, 4.5vw, 5rem);
+  font-size: clamp(1.9rem, 3.8vw, 4.2rem);
 }
 
 .text-style-bigger {
-  font-size: clamp(3rem, 7vw, 7vw);
+  font-size: clamp(5rem, 13vw, 11rem);
 }
 .text-serif-1 {
   @apply text-style-1;

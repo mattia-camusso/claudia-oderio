@@ -2,14 +2,43 @@
   <div>
     <div
       id="services"
-      class="section1 flex flex-col w-full justify-start h-full items-center"
+      class="section1 mt-16 flex flex-col w-full justify-start h-full items-start"
     >
-      <h3 class="text-serif-big sm:pt-16 pt-8 lg:pt-[8vh] w-[90vw] text-center">
-        VENITE A SCOPRIRE I NOSTRI
-        <span class="font-black"> SERVIZI </span>
-      </h3>
+      <div class="absolute left-24 z-4 flex flex-col">
+        <h3 class="text-serif-bigger tracking-tagline text-c-4 text-left">
+          OSTEOPATIA
+        </h3>
+        <div class="flex"></div>
+        <p class="text-style-4 leading-[1.525] font-medium w-1/4">
+          L'osteopatia è una terapia manuale basata sulla comprensione della
+          struttura e della funzione del corpo umano.
+        </p>
+        <div class="self-end bg-c-1 p-12 rounded-l-2xl">
+          <p
+            class="text-style-4 right-0 leading-[1.525] font-light italic w-[40vw]"
+          >
+            “L’<span class="font-medium">osteopatia</span> è la regola del
+            movimento e il movimento è l’espressione stessa della
+            <span class="font-medium">vita</span>” <br />
+            - Andrew Taylor Still
+          </p>
+        </div>
+      </div>
+      <div class="w-full flex justify-end">
+        <img
+          class="aspect-[5/4] w-[66vw] object-right"
+          src="../assets/flowers.png"
+          alt="legnowork"
+        />
+      </div>
+
       <div class="flex flex-col md:flex-row justify-between w-full">
-        <div class="gap-12 md:gap-16 md:w-3/5 flex flex-col mx-8 mt-16">
+        <div class="gap-12 md:gap-16 flex flex-col mx-24 mt-16">
+          <div>
+            <h3 class="font-thin text-style-bigger tracking-tagline">
+              TRATTAMENTI
+            </h3>
+          </div>
           <div class="flex after-line">
             <img
               src="../assets/svg/icon1.svg"
@@ -51,9 +80,6 @@
               Finanziamenti personalizzati anche a tasso zero
             </p>
           </div>
-        </div>
-        <div class="mt-16 lg:mt-8 ml-8 md:ml-0">
-          <img src="../assets/landing1.png" alt="legnowork" />
         </div>
       </div>
     </div>
@@ -205,13 +231,10 @@ const getDescription = computed(() => {
     justify-items: center;
     width: 90vw;
   }
-
-  .services-cont > * {
-  }
 }
 
 .section2 {
-  background-image: url("assets/landing2.png");
+  background-image: url("assets/flowers.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
