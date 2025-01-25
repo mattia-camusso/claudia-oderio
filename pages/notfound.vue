@@ -2,7 +2,7 @@
   <div class="hero-container p-8 lg:py-[5vh]">
     <a href="/">
       <img
-        src="../assets/svg/logo-header.svg"
+        src="../assets/svg/logo.svg"
         class="md:h-8 h-4"
         alt="Claudia Oderio Osteopata"
       />
