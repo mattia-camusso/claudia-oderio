@@ -35,4 +35,22 @@ export const treatments = [
     description:
       "Hai notato posture scorrette o dolori in tuo figlio durante la crescita? L’osteopatia interviene su squilibri causati da cadute, sbalzi di crescita e muscolatura debole, spesso all’origine di dolori cervicali, lombari o spalle curve. L’osteopata corregge movimenti, migliora la respirazione e offre consigli su zaino, postura e uso dei dispositivi. Non solo: tiene conto del legame tra cambiamenti fisici, ormonali ed emozioni, aiutando i ragazzi a ritrovare equilibrio tra corpo in evoluzione e mondo esterno.",
   },
+  /*   {
+    id: "sacrale",
+    name: "Tecniche cranio-sacrali",
+    description:
+      '"La struttura governa la funzione" (A.T. Still) \n Si tratta l’apparato muscolo-scheletrico. Con il trattamento articolare, che può includere il tipico "scrocchio" delicato e deciso, si migliorano disturbi legati a muscoli, nervi, legamenti e a problematiche come dolori cervicali, lombari, slogature e tensioni. Un approccio particolarmente utile è quello all\'articolazione temporo-mandibolare (ATM), che aiuta a risolvere problemi legati a malocclusioni, bruxismo, serraggio dei muscoli masticatori, mal di testa e acufeni.',
+  },
+  {
+    id: "viscerale",
+    name: "Tecniche viscerali",
+    description:
+      "Le tecniche viscerali prevedono un trattamento delicato dell'addome, mirato a riarmonizzare il diaframma, il principale motore degli organi interni e della respirazione. Si interviene sul sistema fasciale, che collega ossa, muscoli e organi di addome e torace, distendendo le tensioni che spesso causano alterazioni posturali e dolori diffusi. Inoltre, si trattano le cicatrici per liberare le aderenze tra i vari strati cutanei.",
+  },
+  {
+    id: "sacrale",
+    name: "Tecniche cranio-sacrali",
+    description:
+      "Le tecniche cranio-sacrali sono delicate e hanno un'azione preventiva e di riarmonizzazione dei principali sistemi del corpo, come quello nervoso, immunitario, ormonale e circolatorio. Questo trattamento è rilassante e rigenerante per tutti, promuovendo un equilibrio globale dell'organismo.",
+  }, */
 ];

@@ -26,7 +26,7 @@
       </div>
       <div class="w-full flex justify-end">
         <img
-          class="aspect-[5/4] w-[66vw] object-right"
+          class="aspect-[3/2] w-[66vw] object-right"
           src="../assets/flowers.png"
           alt="osteopata"
         />
