@@ -4,7 +4,7 @@
       <img
         src="../assets/svg/logo-header.svg"
         class="md:h-8 h-4"
-        alt="Legnowork"
+        alt="Claudia Oderio Osteopata"
       />
     </a>
     <h3 class="text-serif-big md:pt-[25vh] text-center text-c-1">

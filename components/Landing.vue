@@ -315,37 +315,6 @@ const getName = computed(() => {
   border-image: fill 1
     linear-gradient(var(--overlay-light), var(--overlay-light));
 }
-.section3 {
-  background-image: url("assets/chi-siamo1.jpg");
-  background-position: center 99%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-image: fill 1 linear-gradient(var(--overlay-dark), var(--overlay-dark));
-}
-
-.blue-container {
-  width: 100vw;
-  @apply text-c-1;
-  border-image: fill 1
-    linear-gradient(
-      to bottom,
-      rgba(49, 52, 133, 1) 0%,
-      rgb(49, 52, 133, 0.65) 100%
-    );
-  background-image: url("../assets/landing3.png");
-}
-
-@media screen and (max-width: 1024px) {
-  .section2 {
-    background-image: url("assets/landing2.png");
-    background-size: cover;
-  }
-
-  .after-line::after {
-    content: "";
-    width: 0 !important;
-  }
-}
 
 .after-line {
   position: relative;
