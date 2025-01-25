@@ -1,6 +1,5 @@
 <template>
   <slot></slot>
-  <Footer></Footer>
 </template>
 <script setup>
 const store = useMainStore();

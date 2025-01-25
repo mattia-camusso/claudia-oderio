@@ -28,147 +28,200 @@
         <img
           class="aspect-[5/4] w-[66vw] object-right"
           src="../assets/flowers.png"
-          alt="legnowork"
+          alt="osteopata"
         />
       </div>
 
-      <div class="flex flex-col md:flex-row justify-between w-full">
-        <div class="gap-12 md:gap-16 flex flex-col mx-24 mt-16">
-          <div>
-            <h3 class="font-thin text-style-bigger tracking-tagline">
+      <div class="flex flex-col md:flex-row justify-between w-full mb-24">
+        <div class="gap-12 md:gap-16 flex flex-col mt-16">
+          <div class="relative">
+            <h3 class="font-thin text-style-bigger tracking-tagline ml-24">
               TRATTAMENTI
             </h3>
+            <div class="flex w-full justify-between my-6 text-style-4 px-24">
+              <div v-for="t in treatments">
+                <button
+                  :class="
+                    t.id == store.selectedProduct.id
+                      ? 'font-medium'
+                      : 'font-thin'
+                  "
+                  class="uppercase cursor-pointer"
+                  @click="store.selectProduct(t)"
+                >
+                  <TextUnderlineAnimated
+                    :color="t.id == store.selectedProduct.id ? 4 : 2"
+                  >
+                    {{ t.id }}
+                  </TextUnderlineAnimated>
+                </button>
+              </div>
+            </div>
+            <div class="relative">
+              <img
+                class="object-right ml-24 max-h-[85svh] w-[100vw] object-fill"
+                :src="`/${getId}.png`"
+                :alt="`Trattamento osteopatico per ${getId}`"
+              />
+              <div
+                class="absolute left-0 top-16 glass w-2/5 p-12 pl-24 backdrop-blur-sm rounded-r-2xl"
+              >
+                <h5 class="font-medium text-style-4 uppercase mb-2">
+                  {{ getName }}
+                </h5>
+                <p class="text-style-3 leading-[1.525] font-light">
+                  {{ getDescription }}
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="flex after-line">
-            <img
-              src="../assets/svg/icon1.svg"
-              class="h-6 lg:h-14 mr-4 md:mr-8"
-              alt="Legnowork porte e finestre"
-            />
-            <p class="text-style-4">
-              Assistenza post-vendita e manutenzione programmata
-            </p>
-          </div>
-          <div class="flex after-line">
-            <img
-              src="../assets/svg/icon2.svg"
-              class="h-6 lg:h-14 mr-4 md:mr-8"
-              alt="Legnowork porte e finestre"
-            />
-            <p class="text-style-4">
-              Sopralluoghi, consulenza tecnica professionale e preventivi
-              gratuiti
-            </p>
-          </div>
-          <div class="flex after-line">
-            <img
-              src="../assets/svg/icon3.svg"
-              class="h-6 lg:h-14 mr-4 md:mr-8"
-              alt="Legnowork porte e finestre"
-            />
-            <p class="text-style-4">
-              Posa in opera qualificata legno-legno e casa clima
-            </p>
-          </div>
-          <div class="flex after-line">
-            <img
-              src="../assets/svg/icon4.svg"
-              class="h-6 lg:h-14 mr-4 md:mr-8"
-              alt="Legnowork porte e finestre"
-            />
-            <p class="text-style-4">
-              Finanziamenti personalizzati anche a tasso zero
-            </p>
+          <div>
+            <h3
+              class="font-thin text-style-bigger text-c-4 tracking-tagline text-center mb-4"
+            >
+              CHI SONO
+            </h3>
+            <div class="flex justify-between">
+              <div class="ml-24 w-1/2">
+                <h3 class="uppercase text-serif-1 text-c-4 mb-8">
+                  Claudia Oderio
+                </h3>
+                <h4 class="uppercase font-bold text-style-1 text-gray-600 mb-8">
+                  Osteopata a Saint Vincent
+                </h4>
+                <div
+                  class="text-style-4 flex flex-col gap-2 font-light leading-[1.525] text-pretty"
+                >
+                  <p>
+                    Mi chiamo Claudia e
+                    <span class="font-medium"
+                      >da più di 25 anni lavoro come osteopata a
+                      Saint-Vincent</span
+                    >, un paese della Valle d'Aosta dove vivo da sempre con la
+                    mia famiglia.
+                  </p>
+                  <p>
+                    Il mio lavoro è una passione che si alimenta da una continua
+                    ricerca, unita a molta pratica manuale e a un costante
+                    aggiornamento.
+                  </p>
+                  <p class="font-medium">
+                    Con il mio lavoro aiuto le persone a riconoscere i segnali
+                    del corpo, a superare il dolore e a ritrovare una vita sana
+                    e armoniosa.
+                  </p>
+                  <p>
+                    Il mio approccio si basa sull'unione del sapere scientifico
+                    e delle tecniche osteopatiche, con l'ascolto attento e la
+                    comprensione della persona nella sua interezza.
+                  </p>
+                  <p>
+                    L'obiettivo è condurre ciascun paziente passo dopo passo
+                    verso la risoluzione del suo problema, riducendo al minimo
+                    il rischio di recidive.
+                  </p>
+                  <p>
+                    Le tante persone che ho incontrato nel corso degli anni sono
+                    per me un continuo arricchimento, non solo a livello
+                    professionale, ma anche umano.
+                  </p>
+                </div>
+              </div>
+              <div class="mt-24">
+                <img
+                  class="h-[80svh] aspect-[4/5]"
+                  src="../assets/bio.png"
+                  alt="Claudia Oderio Osteopata"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="h-16 md:h-32"></div>
-    <div class="section section2 flex flex-col items-center justify-between">
-      <div
-        class="flex flex-col items-center p-6 lg:p-10 mt-[20vh] h-full card-container"
-      >
-        <p class="font-bold text-center text-pretty text-style-4 mb-10">
-          DETRAZIONE DEL 50% SULLA SPESA PER SOSTITUZIONE FINESTRE
-        </p>
-        <p class="font-light text-center text-pretty text-style-4">
-          RINNOVATA FINO AL 31/12/2025
-        </p>
-      </div>
-      <img
-        src="../assets/svg/INSTALLAZIONI.svg"
-        class="w-full mb-[-5px]"
-        alt="Legnowork porte e finestre"
-      />
-    </div>
-    <div class="blue-container p-12 md:p-20">
-      <h3
-        class="text-center leading-relaxed text-pretty font-bold text-style-1 mb-12"
-      >
-        OLTRE TRENT’ANNI DI ESPERIENZA QUALIFICATA
-      </h3>
-      <p
-        class="text-center text-pretty font-light leading-relaxed text-style-3"
-      >
-        La nostra azienda vanta una solida esperienza trentennale nel campo
-        delle installazioni di serramenti. Ogni intervento è realizzato con
-        competenza e precisione, grazie a un team interno di professionisti
-        altamente qualificati. Il nostro personale, formato con costante
-        aggiornamento, si distingue per la capacità di operare in ogni contesto,
-        rispettando sia gli ambienti che le persone. Questa lunga tradizione ci
-        permette di garantire installazioni a regola d’arte, frutto di una
-        dedizione che si è affinata nel tempo.
-      </p>
-    </div>
-    <div class="bg-c-1 rounded-b-3xl"></div>
-    <div
-      id="chi-siamo"
-      class="section3 relative flex bg-c-2 flex-col-reverse h-[100vh] w-full"
-    >
-      <div class="absolute backdrop-blur-sm md:hidden h-full w-full"></div>
-      <div
-        class="md:bg-c-1 z-10 md:backdrop-blur-md md:opacity-65 flex flex-col items-center"
-      >
-        <div
-          class="p-8 text-style-3 text-c-1 md:text-c-2 leading-relaxed flex flex-col gap-2"
-        >
-          <p class="font-medium md:font-light">
-            Legnowork nasce nel 1994 come società operante nella fornitura di
-            finestre, porte, accessori complementari e della relativa posa in
-            opera qualificata.
-          </p>
-          <p class="font-medium md:font-light">
-            Nell’attività svolta in questi anni, seguendo e a volte anticipando
-            le richieste e le tendenze del mercato e della clientela, ha
-            selezionato e consolidato i rapporti con i migliori produttori del
-            settore a livello nazionale.
-          </p>
-          <p class="font-medium md:font-light">
-            Ha perfezionato con estrema cura e con un sempre costante
-            aggiornamento l’installazione professionale e qualificata dei
-            prodotti che vengono forniti. La filosofia e la missione cha ha
-            sempre motivato i titolari di questa azienda ed i suoi collaboratori
-            si riassume in queste valori: qualità senza compromessi,
-            installazioni professionali e qualificate, serietà incondizionata
-            verso la clientela.
+      <div class="banner-mid h-[70svh] w-full flex items-center justify-center">
+        <div>
+          <h4 class="text-center text-style-big text-c-1 font-medium">
+            TRATTAMENTO OSTEOPATICO <span class="text-c-3">DA 0 A 99 ANNI</span>
+          </h4>
+          <p class="text-center text-style-1 text-c-1 m-24 mb-0 font-light">
+            Utilizzo un’ampia gamma di tecniche che, unite al sapere scientifico
+            mi permettono di trattare problemi diversi nel pieno rispetto delle
+            caratteristiche di
+            <span class="font-medium">ogni signola persona</span>.
           </p>
         </div>
       </div>
-      <h4
-        class="text-c-1 z-10 uppercase text-serif-bigger mt-8 md:opacity-90 text-center"
+      <div
+        class="mx-24 bg-c-1 rounded-2xl flex p-12 justify-between w-[-webkit-fill-available] banner-low -translate-y-24 font-thin leading-[1.525] text-style-4 text-center text-pretty"
       >
-        CHI
-        <span class="font-black"> SIAMO </span>
-      </h4>
-      <h3 class="text-serif-big p-12 text-center text-c-2"></h3>
+        <div class="flex items-center flex-col gap-8">
+          <img
+            src="../assets/svg/icon1.svg"
+            alt="patologie e disturbi osteopatici"
+          />
+          <p>Cervicale e patologie muscolo scheletriche</p>
+        </div>
+        <div class="flex items-center flex-col gap-8">
+          <img
+            src="../assets/svg/icon2.svg"
+            alt="patologie e disturbi osteopatici"
+          />
+          <p>Cervicale e patologie muscolo scheletriche</p>
+        </div>
+        <div class="flex items-center flex-col gap-8">
+          <img
+            src="../assets/svg/icon3.svg"
+            alt="patologie e disturbi osteopatici"
+          />
+          <p>Cervicale e patologie muscolo scheletriche</p>
+        </div>
+      </div>
     </div>
   </div>
+  <footer class="mx-24">
+    <div class="flex justify-between">
+      <img
+        src="../assets/svg/footer-logo.svg"
+        alt="Claudia Oderio Osteopata Saint Vincent"
+      />
+      <img src="../assets/roi.png" alt="Registro Osteopati Italiani" />
+    </div>
+    <div class="my-24">
+      <h5 class="font-medium text-style-big text-center tracking-wider">
+        CONTATTI
+      </h5>
+    </div>
+    <div class="flex justify-between mb-24">
+      <div class="flex items-center gap-4">
+        <img src="../assets/svg/whatsapp.svg" alt="" />
+        <span class="text-style-4 font-medium">+39 329 214 51 54</span>
+      </div>
+      <div class="flex items-center gap-4">
+        <img src="../assets/svg/location.svg" alt="" />
+        <span class="text-style-4 font-medium"
+          >Via Roma, 5 Saint Vincent (AO)</span
+        >
+      </div>
+      <div class="flex items-center gap-4">
+        <img src="../assets/svg/time.svg" alt="" />
+        <span class="text-style-4 font-medium text-right"
+          >lun - ven 08:00 19:00 <br />
+          sab 08:00 12:30</span
+        >
+      </div>
+    </div>
+    <div class="bg-c-2 rounded-t-3xl flex items-center justify-center">
+      <span class="font-medium text-c-1 text-style-4 py-8"
+        >Claudia Oderio Osteopata | Partita IVA: 00649480076</span
+      >
+    </div>
+  </footer>
 </template>
 
 <script lang="ts" setup>
-import { prodotti } from "../constants";
+import { treatments } from "../constants";
 import { useMainStore } from "../stores/myStore";
-import { computed } from "vue";
+import { computed, onMounted } from "vue";
 
 const store = useMainStore();
 
@@ -176,12 +229,24 @@ const select = (product) => {
   store.selectProduct(product);
 };
 
+onMounted(() => {
+  select(treatments[0]);
+});
+
+const getId = computed(() => {
+  const prod = treatments.find((el) => el.id == store.selectedProduct.id);
+  console.log(prod?.description);
+  if (prod) return prod.id;
+});
 const getDescription = computed(() => {
-  const prod = prodotti.find(
-    (el) => el.name == store.selectedProduct.description
-  );
+  const prod = treatments.find((el) => el.id == store.selectedProduct.id);
   console.log(prod?.description);
   if (prod) return prod.description;
+});
+const getName = computed(() => {
+  const prod = treatments.find((el) => el.id == store.selectedProduct.id);
+  console.log(prod?.description);
+  if (prod) return prod.name;
 });
 </script>
 
@@ -190,6 +255,15 @@ const getDescription = computed(() => {
   max-height: 120vh;
   min-height: 110vh;
   width: 100vw;
+}
+
+.banner-mid {
+  background-image: url("../assets/middle.png");
+}
+
+.banner-low {
+  -webkit-box-shadow: 0px 3px 3px 1px #1a0b02;
+  box-shadow: 0px 3px 3px 1px #1a0b02;
 }
 
 .services-cont {

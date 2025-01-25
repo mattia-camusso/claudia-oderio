@@ -194,7 +194,7 @@
   font-size: clamp(1rem, 1.4vw, 3.2rem);
 }
 .text-style-4 {
-  font-size: clamp(1rem, 2vw, 3.4rem);
+  font-size: clamp(1rem, 1.8vw, 3.4rem);
 }
 
 .text-style-big {
@@ -214,6 +214,10 @@
 }
 .text-serif-3 {
   @apply text-style-3;
+  font-family: var(--font-serif);
+}
+.text-serif-4 {
+  @apply text-style-4;
   font-family: var(--font-serif);
 }
 
@@ -281,6 +285,15 @@
 .nav-items:hover > .nav-item:not(:hover)::after {
   width: 0%;
   transition: all 800ms var(--cubic-bezier);
+}
+
+.glass {
+  /* From https://css.glass */
+  background: rgba(225, 245, 183, 0.74);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.4px);
+  -webkit-backdrop-filter: blur(5.4px);
 }
 
 ::-moz-selection {

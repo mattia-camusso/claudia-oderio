@@ -1,65 +1,38 @@
-export const prodotti = [
+export const treatments = [
   {
-    id: "finestre",
-    name: "Finestre",
+    id: "neonatale",
+    name: "Osteopatia Neonatale",
     description:
-      "Finestre costruite con i migliori materiali: LEGNO, ALLUMINIO, ALLUMINIO-LEGNO, PVC e PVC-LEGNO; selezionate dai migliori produttori. Tipologie, esecuzioni e finiture per ogni Vostra richiesta. L'esperienza acquisita ad oggi ci aiuta a soddisfare e personalizzare i desideri dei nostri clienti",
-    length: 6,
+      "Hai appena partorito? Come sta il tuo bambino? L'osteopatia neonatale è consigliata sin dai primi giorni di vita del bambino per correggere eventuali deformazioni delle ossa del feto causate da fattori esterni durante la gravidanza o da pressioni sul cranio durante il parto. Questi problemi possono causare disturbi come rigurgito, difficoltà nella suzione, coliche, stipsi e irrequietezza. L'osteopatia, tramite una palpazione delicata, aiuta a correggere gli spostamenti impercettibili delle ossa, favorendo una crescita armoniosa del bambino.",
   },
   {
-    id: "porte",
-    name: "Porte",
+    id: "terza età",
+    name: "Osteopatia per la Terza Età",
     description:
-      "Interni in legno, laminatino e in cristallo.. Tradizionali, innovative o di tendenza. Semplici, decorate, incise o pannellate. La porta resta sempre un elemento essenziale che identifica e personalizza. Anche qui abbiamo scelto per garantirvi qualità e innovazione.",
-    length: 6,
+      "Vuoi sentirti più sciolto nei tuoi gesti quotidiani? Con l'avanzare degli anni risulta più difficile svolgere semplici azoni, ma il trattamento osteopatico può aiutare nel ridurre i disagi derivanti dall'invecchiamento, dalla minor mobilità articolare alla sedentarietà. Si suggeriscono anche alcuni esercizi di base per la coordinazione e l'equilibrio, aiutando così la persona a ritrovare più sicurezza nei gesti di ogni giorno.",
   },
   {
-    id: "verande",
-    name: "Verande",
+    id: "infanzia",
+    name: "Osteopatia per L'Infanzia",
     description:
-      "Verande di chiusura terrazzi o balconi, programma completo per ogni esigenza, per chiusura frontale, frontale e laterale e anche con l’eventuale copertura superiore. Disponibili in PVC o PVC-ALLUMINIO.",
-    length: 2,
+      "Tuo figlio cresce in modo sano? Durante la prima visita si ricostruisce insieme ai genitori la storia del bambino per comprendere il momento del parto, le eventuali malattie e traumi, passando successivamente ad esaminare l'asse corporeo e i vari blocchi muscolari. È importante correggere la postura e i movimenti scorretti del bambino, perché possono essere causa di danni ad una colonna vertebrale ancora in crescita",
   },
   {
-    id: "inferriate",
-    name: "Inferriate",
+    id: "gravidanza",
+    name: "Osteopatia in Gravidanza",
     description:
-      "Inferriate di sicurezza certificate da prove antieffrazione. Eseguibili in diverse tipologie: fisse, apribili, apribili snodate da applicarsi in combinazione con persiane esterne. Una scelta ampia di lavorazioni, disegni, sagomature e colorazioni.",
-    length: 2,
+      "Sei in dolce attesa? L'osteopatia in gravidanza viene scelta da un numero sempre maggiore di donne. Durante i 9 mesi di gravidanza il corpo della donna viene sottoposto a numerosi e significativi cambiamenti. In queste circostanze la postura si modifica, aumenta il peso e la pressione addominale e possono sorgere alcuni disturbi come mal di schiena e dolori alle gambe. L'osteopatia può migliorare la qualità della vita della donna permettendole di vivere in modo naturale e sereno i cambiamenti che si verificano nell'arco di questi 9 mesi.",
   },
   {
-    id: "tende-da-sole",
-    name: "Tende da Sole",
+    id: "sport",
+    name: "Osteopatia per lo Sport",
     description:
-      "Tende da sole con i tessuti dei migliori produttori, anche di grandi dimensioni. Manuali o motorizzate con accessori e automazioni abbinabili alla domotica.",
-    length: 2,
+      "Sei uno sportivo? L’osteopatia supporta gli atleti ottimizzando le performance, prevenendo infortuni e favorendo il recupero post-allenamento o gara. Con trattamenti mirati, migliora la funzionalità muscolare e articolare, offrendo un approccio personalizzato per professionisti e amatori. L’obiettivo è mantenere il corpo in equilibrio, ridurre il dolore da infortuni e garantire la piena mobilità dell’apparato muscolo-scheletrico.",
   },
   {
-    id: "persiane",
-    name: "Persiane",
+    id: "adolescenza",
+    name: "Osteopatia per L'Adolescenza",
     description:
-      "Persiane e oscuranti per esterno nei materiali più resistenti, ed eseguite in tutte le tipologie. Disponibili anche con telaio portante e lamelle orientabili. La scelta fra ALLUMINIO, PVC, LEGNO in una gamma completa di finiture.",
-    length: 3,
-  },
-  {
-    id: "porte-blindate",
-    name: "Porte Blindate",
-    description:
-      "Porte ingresso di sicurezza certificate con diverse classificazione di resistenza. Serrature di sicurezza con abbinamenti personalizzabili. Vasta gamma di pannelli di rivestimento interni ed esterni. Sostituzione con rimozione della vecchia porta, applicazione accurata della nuova porta eseguito nella stessa giornata.",
-    length: 2,
-  },
-  {
-    id: "zanzariere",
-    name: "Zanzariere",
-    description:
-      "Zanzariere, tende oscuranti e veneziane a lamelle. Con movimentazione manuale o motorizzata. Vastissima gamma di materiali, tipologie e colorazioni a vostra disposizione.",
-    length: 2,
-  },
-  {
-    id: "tapparelle",
-    name: "Tapparelle",
-    description:
-      "Tapparelle avvolgibili disponibili in diversi materiali far cui: PVC, ALLUMINIO, IN LAMINA DI ACCIAIO PER LA SICUREZZA, LEGNO E LE NUONE CON LA STECCA ORIENTABILE. Sostituzione e ricambi di tutti gli accessori inerenti la movimentazione. Motorizzazione e automazione elettrica delle stesse e anche di quelle già esistenti.",
-    length: 3,
+      "Hai notato posture scorrette o dolori in tuo figlio durante la crescita? L’osteopatia interviene su squilibri causati da cadute, sbalzi di crescita e muscolatura debole, spesso all’origine di dolori cervicali, lombari o spalle curve. L’osteopata corregge movimenti, migliora la respirazione e offre consigli su zaino, postura e uso dei dispositivi. Non solo: tiene conto del legame tra cambiamenti fisici, ormonali ed emozioni, aiutando i ragazzi a ritrovare equilibrio tra corpo in evoluzione e mondo esterno.",
   },
 ];
