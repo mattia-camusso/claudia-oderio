@@ -2,22 +2,24 @@
   <div class="hero-container">
     <div>
       <img
-        class="ml-24 md:h-[25vh] top-1/4 absolute transform -translate-y-1/2 left-0 z-10"
+        class="md:ml-24 ml-12 w-[75vw] md:w-auto md:h-[25vh] top-12 md:top-1/4 absolute transform md:-translate-y-1/2 md:left-0 z-10"
         src="../assets/svg/logo.svg"
         alt="Claudia Orderio Osteopata"
       />
     </div>
-    <h1 class="text-style-big absolute -bottom-3 leading-[4rem] left-8 w-[65vw] font-[300] z-3 text-center px-4">
-      "<span class="italic">Da oltre 20 anni aiuto persone di tutte le età a ritrovare </span><span class="font-[500]">l’equilibrio</span>”
-    </h1>
+    <div class="absolute bottom-0 md:-bottom-4 left-0 md:left-8 w-[100vw] md:w-[65vw] px-8 py-12 md:px-4 z-3 glass2">
+      <h1 class="text-style-big md:leading-[4rem] font-[300] md:text-center">
+        "<span class="italic">Da oltre 25 anni aiuto persone di tutte le età a ritrovare </span><span class="font-[500]">l’equilibrio</span>”
+      </h1>
+    </div>
     <img
     src="../assets/svg/banner.svg"
-    class="absolute -bottom-[20svh] z-2"
+    class="absolute -bottom-[20svh] z-2 hidden md:block"
     alt="Osteopata valle d'aosta saint vincent"
   />
     <img
     src="../assets/claudia2.png"
-    class="w-[80vw] md:w-[40vw] absolute right-0 -bottom-[20svh]"
+    class="w-[90vw] md:w-[40vw] absolute right-0 bottom-24 md:-bottom-[20svh]"
     alt="Claudia oderio osteopata"
   />
   </div>
@@ -32,5 +34,11 @@
   background-image: url("../assets/hero.png");
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 768px) {
+  .hero-container{
+    height: 100svh;
+  }
 }
 </style>
