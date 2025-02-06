@@ -22,8 +22,7 @@ export default {
         },
       },
       screens: {
-        tall: { raw: "(min-height: 740px)" },
-        "xs": "400px",
+        "xs": { 'min': '400px', 'max': '640px' },
         "3xl": "2000px",
         // => @media (min-height: 800px) { ... }
       },

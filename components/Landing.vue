@@ -57,7 +57,7 @@
               </div>
             </div>
             <div 
-            :class="getId == 'adolescenza' ? 'h-[115svh] xs:h-[75svh] md:h-auto' : 'h-[75svh] xs:h-[55svh] md:h-auto'"
+            :class="getId == 'adolescenza' ? 'h-[115svh] xs:h-[90svh] sm:h-[50svh] lg:h-auto' : 'h-[80svh] xs:h-[60svh] sm:h-[40svh] lg:h-auto'"
             class="relative overflow-hidden">
               <img
                 class="object-right md:ml-24 md:max-h-[85svh] w-[100vw] object-fill"
@@ -132,7 +132,7 @@
               </div>
               <div class="my-12 md:mt-24">
                 <img
-                  class="h-[50svh] ml-auto md:h-[80svh] aspect-[4/5]"
+                  class="h-[50svh] ml-auto lg:h-[80svh] aspect-[4/5]"
                   src="../assets/bio.png"
                   alt="Claudia Oderio Osteopata"
                 />
@@ -192,11 +192,11 @@
   <footer class="mx-4 md:mx-24">
     <div class="flex justify-between">
       <img
-      class="h-12"
+      class="h-12 md:h-auto"
         src="../assets/svg/footer-logo.svg"
         alt="Claudia Oderio Osteopata Saint Vincent"
       />
-      <img src="../assets/roi.png" class="h-12" alt="Registro Osteopati Italiani" />
+      <img src="../assets/roi.png" class="h-12 md:h-auto" alt="Registro Osteopati Italiani" />
     </div>
     <div class="my-12 md:my-24">
       <h5 class="font-medium text-style-big md:text-center tracking-wider">
@@ -223,7 +223,7 @@
       </div>
     </div>
     <div class="bg-c-2 rounded-t-3xl flex items-center justify-center">
-      <span class="font-medium text-c-1 text-style-4 py-6 px-4 leading-[1.525] md:py-8"
+      <span class="font-medium text-center text-c-1 text-style-4 py-6 px-4 leading-[1.525] md:py-8"
         >Claudia Oderio Osteopata | Partita IVA: 00649480076</span
       >
     </div>
