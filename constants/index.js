@@ -10,11 +10,11 @@ export const treatments = [
     name: "Osteopatia per L'Infanzia",
     description:
       "Tuo figlio cresce in modo sano? E' caduto giocando? Durante la prima visita si ricostruisce insieme ai genitori la storia del bambino per comprendere il momento del parto, le eventuali malattie e traumi, passando successivamente ad esaminare l'asse corporeo e i vari blocchi muscolari. È importante correggere la <span class=\"font-medium\">postura<\/span> e i movimenti scorretti del bambino, perché possono essere causa di danni ad una colonna vertebrale ancora in <span class=\"font-medium\">crescita<\/span>. E' nell'età scolare che si forma la colonna e che si creano gli schemi motori che ci accompagneranno per tutta la vita.",
-  },
-  {
-    id: "adolescenza",
-    name: "Osteopatia per L'Adolescenza",
-    description:
+    },
+    {
+      id: "adolescenza",
+      name: "Osteopatia per L'Adolescenza",
+      description:
       "È armoniosa la crescita di tuo figlio? È caduto facendo sport? L' osteopatia in adolescenza interviene sulla struttura ossea del ragazzo e ne corregge la postura e e i movimenti scorretti. Per esempio, nel giovane sovente si verificano delle accelerazioni di crescita in altezza e ciò porta ad avere una muscolatura ancora debole per sorreggere il grande cambiamento. Le spalle si incurvano in avanti e possono insorgere dolori vari nella zona cervicale e lombare. Il respiro più ampio porta ossigeno e benessere a tutto il corpo. L'osteopata dopo il suo intervento, fornirà anche utili consigli sulla corretta posizione dello zaino sulle spalle, la posizione migliore da assumere quando si è seduti e si usano i vari dispositivi digitali. Infine, in questo periodo delicato di crescita, la postura è anche un'espressione del cambiamento ormonale e delle emozioni contrastanti che nascono all'interno della relazione tra il \"nuovo sé stesso\" in evoluzione e il mondo esterno. In adolescenza si è \"più chiusi\" che \"aperti\" al mondo. Anche questo aspetto è da tenere in considerazione durante la seduta osteopatica.  ",
   },
   {

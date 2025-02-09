@@ -191,18 +191,18 @@
   font-size: clamp(0.8rem, 1.2vw, 2.5rem);
 }
 .text-style-3 {
-  font-size: clamp(.9rem, 1.4vw, 3.2rem);
+  font-size: clamp(0.9rem, 1.4vw, 3.2rem);
 }
 .text-style-4 {
   font-size: clamp(1rem, 1.8vw, 3.4rem);
 }
 
 .text-style-big {
-  font-size: clamp(1.5rem, 3.8vw, 4.2rem);
+  font-size: clamp(1.5rem, 3.5vw, 4.5rem);
 }
 
 .text-style-bigger {
-  font-size: clamp(1.75rem, 10.5vw, 12rem);
+  font-size: clamp(2.25rem, 10.5vw, 12rem);
 }
 .text-serif-1 {
   @apply text-style-1;
@@ -288,23 +288,23 @@
 }
 
 .glass {
-  
   background: rgba(225, 245, 183, 0.75);
   .glass2 {
-  /* From https://css.glass */
-  background: rgba(225, 245, 183, 0);
-  border-top-right-radius: 16px;
-  border-bottom-right-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0);
-  backdrop-filter: blur(0px);
-  -webkit-backdrop-filter: blur(0px);
-}}
+    /* From https://css.glass */
+    background: rgba(225, 245, 183, 0);
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+  }
+}
 
-@media screen and (max-width: 768px) {
-  .glass2{
+@media screen and (max-width: 767px) {
+  .glass2 {
     border-radius: 0;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    background: rgba(225, 245, 183, 0.75);
+    background: rgba(225, 245, 183, 1);
     backdrop-filter: blur(5.4px);
     -webkit-backdrop-filter: blur(5.4px);
   }

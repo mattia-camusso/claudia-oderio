@@ -24,7 +24,7 @@ export default defineNuxtConfig({
   alias: {
     "@": resolve(__dirname, "/"),
   },
-  modules: ["@pinia/nuxt", "@hypernym/nuxt-anime", "@vueuse/nuxt"],
+  modules: ["@pinia/nuxt"],
   /*   ui: {
     global: true,
   }, */
