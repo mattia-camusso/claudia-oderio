@@ -26,7 +26,7 @@
     </div>
     <img
       src="../assets/claudia2.png"
-      class="h-1/2 sm:h-2/3 xl:h-full max-h-[75svh] absolute right-0 bottom-16 md:-bottom-[20svh]"
+      class="h-3/5 sm:h-3/4 xl:h-full max-h-[85svh] xl:max-h-full absolute right-0 bottom-16 md:-bottom-[20svh]"
       alt="Claudia oderio osteopata"
     />
   </div>
@@ -53,7 +53,7 @@
   left: 6rem;
   margin-inline: auto;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
   .center {
     position: absolute;
     transform: translate(0, 25%);

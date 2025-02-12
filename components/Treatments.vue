@@ -21,7 +21,9 @@
             </button>
           </div>
         </div>
+        <Transition name="zlide-fade">
         <div
+        :key="getId"
           :class="
             getId == 'adolescenza'
               ? 'h-[34rem] sm:h-[50svh] md:h-fit' 
@@ -30,34 +32,34 @@
           class="relative overflow-hidden" 
         > 
           <img  
-            class="object-right md:ml-24 w-[100vw] object-fill"
-            :src="`/${getId}.png`"
-            :alt="`Trattamento osteopatico per ${getId}`"
+          class="object-right md:ml-24 w-[100vw] object-fill"
+          :src="`/${getId}.png`"
+          :alt="`Trattamento osteopatico ${getId}`"
           />
           <div
-            :class="
-              getId == 'adolescenza' ? 'md:w-2/3 lg:w-3/5' : 'md:w-3/6 lg:w-2/5'
-            "
-            class="absolute left-0 md:-translate-y-1/2 md:top-1/2 glass p-6 xl:py-12 xl:pr-12 md:pl-24 lg:pl-24 w-full backdrop-blur-sm md:rounded-r-2xl"
+          :key="getId"
+          :class="getId == 'adolescenza' ? 'md:w-2/3 lg:w-3/5' : 'md:w-3/6 lg:w-2/5'"
+          class="absolute left-0 md:-translate-y-1/2 md:top-1/2 glass p-6 xl:py-12 xl:pr-12 md:pl-24 lg:pl-24 w-full backdrop-blur-sm md:rounded-r-2xl"
           >
-            <h5 class="font-medium text-style-4 uppercase mb-2">
-              {{ getName }}
-            </h5>
-            <p
-              class="text-style-3 text-pretty font-light"
-              v-html="getDescription"
-            />
-          </div>
+          <h5 class="font-medium text-style-4 uppercase mb-2">
+            {{ getName }}
+          </h5>
+          <p
+          class="text-style-3 text-pretty font-light"
+          v-html="getDescription"
+          />
         </div>
+      </div>
+    </Transition>
       </div>
     </div>
   </div>
 </template>
 
 <script lang="ts" setup>
+import { computed, onMounted } from "vue";
 import { treatments } from "../constants";
 import { useMainStore } from "../stores/myStore";
-import { computed, onMounted } from "vue";
 
 const store = useMainStore();
 
@@ -86,4 +88,22 @@ const getName = computed(() => {
 });
 </script>
 
-<style></style>
+<style>
+.zlide-fade-enter-active {
+  transition: all 0.3s ease-out;
+  transition-delay: .5s;
+}
+
+.zlide-fade-leave-active {
+  transition: all 0.4s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+.zlide-fade-enter-from{
+  transform: translateX(-40px);
+  opacity: 0;
+}
+.zlide-fade-leave-to {
+  transform: translateX(40px);
+  opacity: 0;
+}
+</style>

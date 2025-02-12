@@ -40,7 +40,17 @@
           alt="osteopata"
         />
       </div>
-      <!-- <Carousel> </Carousel> -->
+      <p
+            class="md:hidden block m-6 mb-0 md:ml-24 text-style-3 text-pretty leading-[1.525] font-light italic w-4/5 md:w-1/4"
+          >
+            L'osteopatia agisce nell'ambito della
+            <span class="font-medium not-italic">prevenzione</span> promuovendo
+            e mantenendo lo stato di
+            <span class="font-medium not-italic">salute </span> dell'individuo.
+            E' una terapia manuale basata sulla comprensione della struttura e
+            delle molteplici funzioni del corpo umano.
+          </p>
+      <Tecniques></Tecniques>
       <Treatments></Treatments>
       <div>
         <h3
@@ -174,8 +184,8 @@
       />
     </div>
     <div class="my-12 md:my-24">
-      <h5 class="font-medium text-style-big md:text-center tracking-wider">
-        CONTATTI
+      <h5 class="font-medium text-pretty text-style-big md:text-center tracking-wider">
+        CONTATTAMI PER PRENDERE UN APPUNTAMENTO
       </h5>
     </div>
     <div

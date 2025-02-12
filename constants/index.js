@@ -3,7 +3,7 @@ export const treatments = [
     id: "neonatale",
     name: "Osteopatia Neonatale",
     description:
-      "Hai appena partorito? Come sta il tuo bambino? L'osteopatia neonatale è consigliata sin dai primi giorni di vita del bambino per correggere eventuali deformazioni delle ossa del feto causate da fattori esterni durante la gravidanza o da pressioni sul cranio durante il parto. Questi problemi possono causare disturbi come rigurgito, difficoltà nella suzione, coliche, stipsi e irrequietezza. L'osteopatia, tramite una palpazione delicata, aiuta a correggere gli spostamenti impercettibili delle ossa, favorendo una crescita armoniosa del bambino.",
+      "Hai appena partorito? Come sta il tuo bambino? L'osteopatia neonatale è consigliata sin dai primi giorni di vita del bambino per correggere eventuali deformazioni delle ossa del feto causate da fattori esterni durante la gravidanza o da pressioni sul cranio durante il parto. Questi problemi possono causare disturbi come rigurgito, difficoltà nella suzione, coliche, stipsi e irrequietezza. L'osteopatia, tramite una palpazione delicata, aiuta a correggere gli spostamenti impercettibili delle ossa, favorendo una crescita armoniosa del bambino. La relazione tra madre, bambino e osteopata è un incontro prezioso, un atto di fiducia per sostenere la vita che cresce.",
   },
   {
     id: "infanzia",
@@ -56,3 +56,18 @@ export const treatments = [
       "Le tecniche cranio-sacrali sono delicate e hanno un'azione preventiva e di riarmonizzazione dei principali sistemi del corpo, come quello nervoso, immunitario, ormonale e circolatorio. Questo trattamento è rilassante e rigenerante per tutti, promuovendo un equilibrio globale dell'organismo.",
   }, */
 ];
+
+export const tecniques = [{
+  title: "Tecniche cranio-sacrali",
+  img: "skeletal",
+  content: "Le tecniche cranio-sacrali sono delicate e hanno un'azione preventiva e di riarmonizzazione dei principali sistemi del corpo, come quello nervoso, immunitario, ormonale e circolatorio. Questo trattamento è rilassante e rigenerante per tutti, promuovendo un equilibrio globale dell'organismo.",
+
+}, {
+  title: "Tecniche viscerali",
+  img: "visceral",
+  content: "Le tecniche viscerali prevedono un trattamento delicato dell'addome, mirato a riarmonizzare il diaframma, il principale motore degli organi interni e della respirazione. Si interviene sul sistema fasciale, che collega ossa, muscoli e organi di addome e torace, distendendo le tensioni che spesso causano alterazioni posturali e dolori diffusi. Inoltre, si trattano le cicatrici per liberare le aderenze tra i vari strati cutanei.",
+}, {
+  title:"Tecniche strutturali",
+  img: "muscular",
+  content: "\"La struttura governa la funzione\" <br>-A.T. Still<br> Si tratta l’apparato muscolo-scheletrico. Con il trattamento articolare, che può includere il tipico \"scrocchio\" delicato e deciso, si migliorano disturbi legati a muscoli, nervi, legamenti e a problematiche come dolori cervicali, lombari, slogature e tensioni. Un approccio particolarmente utile è quello all'articolazione temporo-mandibolare (ATM), che aiuta a risolvere problemi legati a malocclusioni, bruxismo, serraggio dei muscoli masticatori, mal di testa e acufeni.",
+}]
