@@ -17,7 +17,7 @@
             e mantenendo lo stato di
             <span class="font-medium not-italic">salute </span> dell'individuo.
             E' una terapia manuale basata sulla comprensione della struttura e
-            delle molteplici funzioni del corpo umano.
+            delle molteplici funzioni del <span class="font-medium">corpo umano</span>.
           </p>
           <div
             class="md:self-end bg-c-1 p-2 md:p-12 mt-[8vh] md:mt-0 md:rounded-l-2xl h-fit"
@@ -48,9 +48,9 @@
             e mantenendo lo stato di
             <span class="font-medium not-italic">salute </span> dell'individuo.
             E' una terapia manuale basata sulla comprensione della struttura e
-            delle molteplici funzioni del corpo umano.
+            delle molteplici funzioni del <span class="font-medium">corpo umano</span>.
           </p>
-      <Tecniques></Tecniques>
+      <Tecniques alt></Tecniques>
       <Treatments></Treatments>
       <div>
         <h3
@@ -75,8 +75,7 @@
                 Mi chiamo Claudia e
                 <span class="font-medium"
                   >da più di 25 anni lavoro come osteopata a Saint-Vincent</span
-                >, un paese della Valle d'Aosta dove vivo da sempre con la mia
-                famiglia.
+                >, un paese della Valle d'Aosta dove vivo da sempre con mio marito e i miei due figli.
               </p>
               <p>
                 Il mio lavoro è una passione che si alimenta da una continua
@@ -95,14 +94,14 @@
               </p>
               <p>
                 L'obiettivo è condurre ciascun paziente passo dopo passo verso
-                la risoluzione del suo problema, riducendo al minimo il rischio
-                di recidive.
+                la risoluzione del suo problema, riducendo al minimo possibili recidive.
               </p>
               <p>
                 Le tante persone che ho incontrato nel corso degli anni sono per
                 me un continuo arricchimento, non solo a livello professionale,
                 ma anche umano.
               </p>
+              <p class="font-medium">Grazie</p>
             </div>
           </div>
           <div class="mb-12 md:mt-24">
@@ -184,7 +183,7 @@
       />
     </div>
     <div class="my-12 md:my-24">
-      <h5 class="font-medium text-pretty text-style-big md:text-center tracking-wider">
+      <h5 class="text-pretty text-style-big md:text-center tracking-wider">
         CONTATTAMI PER PRENDERE UN APPUNTAMENTO
       </h5>
     </div>
@@ -225,7 +224,7 @@
     </div>
     <div class="bg-c-2 rounded-t-3xl flex items-center justify-center">
       <span
-        class="font-medium text-center text-c-1 text-style-4 py-6 px-4 leading-[1.525] md:py-8"
+        class=" text-center text-c-1 text-style-4 py-6 px-4 leading-[1.525] md:py-8"
         >Claudia Oderio Osteopata | Partita IVA: 00649480076</span
       >
     </div>

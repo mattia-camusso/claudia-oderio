@@ -1,11 +1,11 @@
 <template>
   <div class="ml-6 md:ml-24 mt-24">
     <h3 class="text-style-bigger text-c-4 font-thin mb-12">POSTURA</h3>
-    <p class="text-style-4 leading-[1.525] md:mr-24 mr-6 font-light">Si parla spesso di <span class="font-medium">postura</span> perché l'essere umano, nel corso della sua vita, assume quotidianamente diverse posizioni del corpo nello spazio. Le posture più comuni sono quelle da in piedi, seduto, in movimento e sdraiato. La postura non riguarda solo l’aspetto fisico, ma ha anche una valenza psicologica, in quanto riflette la relazione che la persona ha con il mondo esterno e la sua capacità di adattamento.
+    <p class="text-style-4 leading-[1.525] md:mr-24 mr-6 font-light">Si parla spesso di <span class="font-medium">postura</span> perché l'essere umano, nel corso della sua vita, assume quotidianamente diverse <span class="font-medium">posizioni del corpo nello spazio</span>. Le posture più comuni sono quelle da in piedi, seduto, in movimento e sdraiato. La postura non riguarda solo l’aspetto fisico, ma ha anche una valenza psicologica, in quanto riflette la <span class="font-medium">relazione</span> che la persona ha con il <span class="font-medium">mondo esterno</span> e la sua <span class="font-medium">capacità di adattamento</span>.
       
-      L'osteopata, dopo aver osservato la postura del paziente e aver effettuato i necessari test, utilizza specifiche tecniche che, per praticità, vengono suddivise in tre categorie:
+      L'osteopata, dopo aver osservato la postura del paziente e aver effettuato i necessari <span class="font-medium">test</span>, utilizza specifiche <span class="font-medium">tecniche</span> che, per praticità, vengono suddivise in tre categorie:
       
-      È fondamentale ricordare che il corpo umano è un'<span class="font-medium">unità</span> funzionale, in cui tutte le parti interagiscono tra loro, principalmente attraverso il <span class="font-medium">sistema fasciale</span>.</p>
+      È fondamentale ricordare che il corpo umano è un'<span class="font-medium">unità funzionale</span> , in cui tutte le parti interagiscono tra loro, principalmente attraverso il <span class="font-medium">sistema fasciale</span>.</p>
       <div class="flex flex-col-reverse md:flex-row mr-6 md:mr-12">
         <div class="md:mt-6">
           <!-- acc single -->
@@ -20,7 +20,7 @@
         </div>
         <div class="h-[40vh] md:h-full md:min-w-[30vw] mt-6 md:mt-0 aspect-auto overflow-clip">
           <Transition name="slide-fade">
-            <img :src="`/${current}.png`" :key="current" class="overflow-clip h-fit" alt="">
+            <img :src="`/${current}${props.alt ? '1':''}.png`" :key="current" class="overflow-clip h-fit" alt="">
           </Transition>
         </div>
       </div>
@@ -35,6 +35,9 @@ const current = ref("skeletal");
 const toggling = (img)=> {
   current.value = img;
 }
+const props = defineProps({
+  alt: Boolean
+});
 
 onMounted(() => {
   const accSingleTriggers = document.querySelectorAll('.js-acc-single-trigger');

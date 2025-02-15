@@ -26,8 +26,8 @@
         :key="getId"
           :class="
             getId == 'adolescenza'
-              ? 'h-[34rem] sm:h-[50svh] md:h-fit' 
-              : 'h-[26rem] sm:h-[40svh] md:h-fit'
+              ? 'h-[37rem] sm:h-[50svh] md:h-fit' 
+              : 'h-[31rem] sm:h-[40svh] md:h-fit'
           "   
           class="relative overflow-hidden" 
         > 
@@ -45,7 +45,7 @@
             {{ getName }}
           </h5>
           <p
-          class="text-style-3 text-pretty font-light"
+          class="text-style-3 leading-[115%] text-pretty font-light"
           v-html="getDescription"
           />
         </div>
