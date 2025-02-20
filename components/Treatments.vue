@@ -25,7 +25,7 @@
         <div
         :key="getId"
           :class="
-            getId == 'adolescenza'
+            getId == 'adolescenza' || getId =='età adulta'
               ? 'h-[37rem] sm:h-[50svh] md:h-fit' 
               : 'h-[31rem] sm:h-[40svh] md:h-fit'
           "   
@@ -38,7 +38,7 @@
           />
           <div
           :key="getId"
-          :class="getId == 'adolescenza' ? 'md:w-2/3 lg:w-3/5' : 'md:w-3/6 lg:w-2/5'"
+          :class="getId == 'adolescenza' || getId == 'età adulta' ? 'md:w-2/3 lg:w-3/5' : 'md:w-3/6 lg:w-2/5'"
           class="absolute left-0 md:-translate-y-1/2 md:top-1/2 glass p-6 xl:py-12 xl:pr-12 md:pl-24 lg:pl-24 w-full backdrop-blur-sm md:rounded-r-2xl"
           >
           <h5 class="font-medium text-style-4 uppercase mb-2">

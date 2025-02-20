@@ -16,7 +16,7 @@
             <span class="font-medium not-italic">prevenzione</span> promuovendo
             e mantenendo lo stato di
             <span class="font-medium not-italic">salute </span> dell'individuo.
-            E' una terapia manuale basata sulla comprensione della struttura e
+            E' una <span class="font-medium">terapia manuale</span> basata sulla comprensione della struttura e
             delle molteplici funzioni del <span class="font-medium">corpo umano</span>.
           </p>
           <div
@@ -82,6 +82,9 @@
                 ricerca, unita a molta pratica manuale e a un costante
                 aggiornamento.
               </p>
+              <p>
+                Ho avuto il privilegio di incontrare grandi maestri, dai cui insegnamenti ho tratto preziose conoscenze che applico ogni giorno nel mio studio.
+              </p>
               <p class="font-medium">
                 Con il mio lavoro aiuto le persone a riconoscere i segnali del
                 corpo, a superare il dolore e a ritrovare una vita sana e
@@ -106,7 +109,7 @@
           </div>
           <div class="mb-12 md:mt-24">
             <img
-              class="ml-auto md:ml-0 max-h-[60svh] sm:rounded-l-2xl"
+              class="ml-auto md:ml-0 max-h-[60svh] md:max-h-[75svh] sm:rounded-l-2xl"
               src="../assets/claudia3.png"
               alt="Claudia Oderio Osteopata"
             />
@@ -188,7 +191,7 @@
       </h5>
     </div>
     <div
-      class="flex flex-col lg:flex-row items-start sm:items-center gap-6 justify-between mb-12 md:mb-24"
+      class="flex flex-col lg:flex-row items-start sm:items-center gap-6 justify-between"
     >
       <a
         href="https://wa.me/393292145154"
@@ -198,7 +201,19 @@
         <img src="../assets/svg/whatsapp.svg" class="h-6 lg:h-12" alt="" />
         <span class="text-style-4 font-medium">
           <TextUnderlineAnimated color="2">
-            +39 329 214 51 54
+            Mandami un messaggio
+          </TextUnderlineAnimated>
+        </span>
+      </a>
+      <a
+        href="tel:393292145154"
+        target="_blank"
+        class="flex items-center gap-4"
+      >
+        <img src="../assets/svg/phone.svg" class="h-6 lg:h-12" alt="" />
+        <span class="text-style-4 font-medium">
+          <TextUnderlineAnimated color="2">
+            Telefona
           </TextUnderlineAnimated>
         </span>
       </a>
@@ -214,18 +229,19 @@
           </TextUnderlineAnimated>
         </span>
       </a>
-      <div class="flex items-center gap-4">
+
+    </div>
+          <div class="flex items-center gap-4 mb-12 md:mb-24 mt-12 md:mt-24">
         <img src="../assets/svg/time.svg" class="h-6 lg:h-12" alt="" />
         <span class="text-style-4 font-medium text-right"
-          >lun - ven 08:00 19:00 <br />
+          >lun - ven 08:00 19:00 
           sab 08:00 12:30</span
         >
       </div>
-    </div>
     <div class="bg-c-2 rounded-t-3xl flex items-center justify-center">
       <span
         class=" text-center text-c-1 text-style-4 py-6 px-4 leading-[1.525] md:py-8"
-        >Claudia Oderio Osteopata | Partita IVA: 00649480076</span
+        >Claudia Oderio Osteopata | Partita IVA: 00649480076 | Sito web a cura di <a href="https://mcwdesign.it" target="_blank">MCW Design</a></span
       >
     </div>
   </footer>
@@ -242,8 +258,9 @@
 }
 
 .banner-mid {
-  background-image: url("../assets/middle.png");
+  background-image: url("../assets/middle2.png");
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 

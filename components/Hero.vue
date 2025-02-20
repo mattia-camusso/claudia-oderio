@@ -12,7 +12,7 @@
       class="z-2 absolute md:-bottom-[20svh] bottom-0 left-0 w-full h-fit min-h-24 glass2"
     >
       <h1
-        class="z-5 text-style-big leading-relaxed text-center font-[300] center p-6 md:p-0 md:w-[55%]"
+        class="z-5 text-style-big leading-[110%] md:leading-relaxed text-center font-[300] center p-6 md:p-0 md:w-[55%]"
       >
         "<span class="italic"
           >Da oltre 25 anni aiuto persone di tutte le età a ritrovare il proprio</span
@@ -41,6 +41,7 @@
   background-image: url("../assets/hero.png");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .container {
