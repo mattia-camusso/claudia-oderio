@@ -21,7 +21,7 @@
       <img
         src="../assets/svg/banner.svg"
         class="relative w-full z-2 hidden md:block"
-        alt="Osteopata valle d'aosta saint vincent"
+        alt="Osteopata valle d'aosta saint-vincent"
       />
     </div>
     <img

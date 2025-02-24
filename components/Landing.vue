@@ -66,7 +66,7 @@
             <h4
               class="uppercase font-medium text-style-1 text-c-4 mb-4 md:mb-8"
             >
-              Osteopata a Saint Vincent
+              Osteopata a Saint-Vincent
             </h4>
             <div
               class="text-style-4 sm:mr-6 flex flex-col gap-2 font-light leading-[1.525] text-pretty"
@@ -117,7 +117,7 @@
         </div>
       </div>
       <div
-        class="banner-mid pt-24 pb-48 w-full flex md:items-center justify-center"
+        class="banner-mid mt-6 sm:pt-24 pb-48 w-full flex md:items-center justify-center"
       >
         <div class="mt-12 md:mt-0">
           <h4
@@ -177,7 +177,7 @@
       <img
         class="h-12 md:h-24 lg:h-auto"
         src="../assets/svg/footer-logo.svg"
-        alt="Claudia Oderio Osteopata Saint Vincent"
+        alt="Claudia Oderio Osteopata Saint-Vincent"
       />
       <img
         src="../assets/roi.png"
@@ -225,16 +225,16 @@
         <img src="../assets/svg/location.svg" class="h-6 lg:h-12" alt="" />
         <span class="text-style-4 font-medium">
           <TextUnderlineAnimated color="2">
-            Via Roma, 5 Saint Vincent (AO)
+            Via Roma, 5 Saint-Vincent (AO)
           </TextUnderlineAnimated>
         </span>
       </a>
 
     </div>
-          <div class="flex items-center gap-4 mb-12 md:mb-24 mt-12 md:mt-24">
+          <div class="flex justify-center items-center gap-4 mb-12 md:mb-24 mt-12 md:mt-24">
         <img src="../assets/svg/time.svg" class="h-6 lg:h-12" alt="" />
         <span class="text-style-4 font-medium text-right"
-          >lun - ven 08:00 19:00 
+          >lun - ven 08:00 19:00<br> 
           sab 08:00 12:30</span
         >
       </div>

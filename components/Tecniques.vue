@@ -6,7 +6,7 @@
       
       L'osteopata, dopo aver osservato la postura del paziente e aver effettuato i necessari <span class="font-medium">test</span>, utilizza specifiche <span class="font-medium">tecniche</span> che, per praticità, vengono suddivise in tre categorie:
       
-      È fondamentale ricordare che il corpo umano è un'<span class="font-medium">unità funzionale</span> , in cui tutte <span class="font-medium">le parti interagiscono tra loro</span>, principalmente attraverso il <span class="font-medium">sistema fasciale</span>.</p>
+      È fondamentale ricordare che il corpo umano è un'<span class="font-medium">unità funzionale</span> , in cui tutte <span class="font-medium">le parti interagiscono tra loro</span>, principalmente attraverso il <span class="font-medium">sistema nervoso</span> (per esempio <span class="font-medium">n. vago</span>, ecc...) e il <span class="font-medium">sistema fasciale</span>.</p>
       <div class="flex flex-col-reverse md:flex-row mr-6 md:mr-12">
         <div class="md:mt-6">
           <!-- acc single -->

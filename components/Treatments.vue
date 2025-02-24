@@ -26,8 +26,8 @@
         :key="getId"
           :class="
             getId == 'adolescenza' || getId =='età adulta'
-              ? 'h-[37rem] sm:h-[50svh] md:h-fit' 
-              : 'h-[31rem] sm:h-[40svh] md:h-fit'
+              ? 'h-[42rem] sm:h-[50svh] md:h-fit' 
+              : 'h-[32rem] sm:h-[40svh] md:h-fit'
           "   
           class="relative overflow-hidden" 
         > 
