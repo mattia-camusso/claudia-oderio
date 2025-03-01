@@ -28,7 +28,7 @@ export const treatments = [
     id: "sport",
     name: "Osteopatia per lo Sport",
     description:
-      "Sei uno sportivo?<br>Frequenti centri sportivi quali palestre, piscine o ti muovi all'aria aperta?<br>L’osteopatia supporta gli atleti <span class=\"font-medium\">ottimizzando le performance<\/span>, prevenendo infortuni e <span class=\"font-medium\">favorendo il recupero<\/span> post-allenamento o gara. Con trattamenti mirati, migliora la funzionalità muscolare e articolare, offrendo un approccio personalizzato per <span class=\"font-medium\">professionisti e amatori<\/span>. L’obiettivo è mantenere il corpo in equilibrio, ridurre il dolore da infortuni e garantire la piena mobilità dell’apparato <span class=\"font-medium\">muscolo-scheletrico<\/span>.",
+      "Sei uno sportivo?<br>Frequenti centri sportivi quali palestre, piscine o ti muovi all'aria aperta?<br>L’osteopatia supporta gli atleti <span class=\"font-medium\">ottimizzando le performance<\/span>, prevenendo infortuni e <span class=\"font-medium\">favorendo il recupero<\/span> post-allenamento o gara. Con trattamenti mirati, migliora la funzionalità muscolare e articolare, offrendo un approccio personalizzato per <span class=\"font-medium\">professionisti e amatori<\/span>.<br> L’obiettivo è mantenere il corpo in equilibrio, ridurre il dolore da infortuni e garantire la piena mobilità dell’apparato <span class=\"font-medium\">muscolo-scheletrico<\/span>.",
   },
   {
     id: "terza età",
