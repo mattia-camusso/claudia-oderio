@@ -10,8 +10,8 @@
       <div class="flex flex-col-reverse md:flex-row mr-6 md:mr-12">
         <div class="md:mt-6">
           <!-- acc single -->
-          <div v-for="tec in tecniques" class="py-6 accordion-single js-acc-single">
-            <div class="accordion-single-item js-acc-item">
+          <div v-for="tec in tecniques" class="py-6 accordion-single js-acc-single border-c-4 border-[1px] rounded-lg px-6">
+            <div class="accordion-single-item js-acc-item ">
               <h2 @click="toggling(tec.img)" class="uppercase text-style-big tracking-wide font-thin accordion-single-title js-acc-single-trigger">{{tec.title}}</h2>
               <div class="accordion-single-content mr-6 md:mr-12">
                 <p class="text-style-4 font-light pt-6 tracking-wider" v-html="tec.content"></p>
@@ -81,7 +81,6 @@ function toggleAccordion() {
 }
 
 .accordion-single  {
-  border-bottom: 1px solid var(--color-4);
   margin-top: 10px;
 }
 

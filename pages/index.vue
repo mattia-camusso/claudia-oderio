@@ -5,6 +5,7 @@ definePageMeta({
 </script>
 
 <template>
+  <Banner></Banner>
   <Hero></Hero>
   <Landing></Landing>
 </template>

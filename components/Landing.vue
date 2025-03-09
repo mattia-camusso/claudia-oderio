@@ -241,7 +241,7 @@
     <div class="bg-c-2 rounded-t-3xl flex items-center justify-center">
       <span
         class=" text-center text-c-1 text-style-4 py-6 px-4 leading-[1.525] md:py-8"
-        >Claudia Oderio Osteopata | Partita IVA: 00649480076 | Sito web a cura di <a href="https://mcwdesign.it" target="_blank">MCW Design</a></span
+        >Claudia Oderio Osteopata | Partita IVA: 00649480076 | <a href="/privacy">Privacy Policy</a> | Sito web a cura di <a href="https://mcwdesign.it" target="_blank">MCW Design</a></span
       >
     </div>
   </footer>
