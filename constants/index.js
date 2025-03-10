@@ -31,16 +31,16 @@ export const treatments = [
       "Sei uno sportivo?<br>Frequenti centri sportivi quali palestre, piscine o ti muovi all'aria aperta?<br>L’osteopatia supporta gli atleti <span class=\"font-medium\">ottimizzando le performance<\/span>, prevenendo infortuni e <span class=\"font-medium\">favorendo il recupero<\/span> post-allenamento o gara. Con trattamenti mirati, migliora la funzionalità muscolare e articolare, offrendo un approccio personalizzato per <span class=\"font-medium\">professionisti e amatori<\/span>.<br> L’obiettivo è mantenere il corpo in equilibrio, ridurre il dolore da infortuni e garantire la piena mobilità dell’apparato <span class=\"font-medium\">muscolo-scheletrico<\/span>.",
   },
   {
+    id: "età adulta",
+    name: "Osteopatia per l'Età Adulta",
+    description:
+    "Vuoi fare fronte ai dolori in modo delicato e naturale?<br>Hai mal di schiena?<br>Gli impegni giornalieri a volte sono troppi e sei in affanno?<br>Nell’era moderna, lo stress è diventato un compagno costante della vita quotidiana, influenzando sia <span class=\"font-medium\">uomini che donne<\/span>. Le pressioni lavorative, le aspettative sociali e le responsabilità familiari contribuiscono ad un livello di tensione spesso difficile da gestire, con conseguenze sul <span class=\"font-medium\">benessere fisico e mentale<\/span>. Possono dunque insorgere, con uno <span class=\"font-medium\">stress prolungato nel tempo<\/span>, problematiche come: <span class=\"italic\">ansia, insonnia,cefalea, contratture muscolari di vario genere, disturbi digestivi/intestinali<\/span> e in più per la donna anche disagi legati alle varie <span class=\"italic\">fasi del ciclo mestruale<\/span>. L’osteopatia dà un valido aiuto utilizzando tecniche miofasciali, manipolazioni articolari e trattamenti cranio-sacrali. Questi approcci migliorano la mobilità, la circolazione in generale riducendo le tensioni e favorendo un buon rilassamento. <span class=\"font-medium\">Il trattamento osteopatico, integrato con uno stile di vita sano, dell’attività fisica e una corretta alimentazione, diventa un prezioso alleato per affrontare le sfide quotidiane dell’età adulta.<\/span>",
+  },
+  {
     id: "terza età",
     name: "Osteopatia per la Terza Età",
     description:
       "Vuoi sentirti più sciolto nei tuoi gesti quotidiani?<br> Con l'avanzare degli anni risulta più difficile svolgere semplici azioni, ma il trattamento osteopatico può aiutare nel <span class=\"font-medium\">ridurre i disagi<\/span> derivanti dall'invecchiamento, dalla minor mobilità articolare alla sedentarietà. Si suggeriscono anche alcuni esercizi di base per la <span class=\"font-medium\">coordinazione e l'equilibrio<\/span>, aiutando così la persona a ritrovare più sicurezza nei <span class=\"font-medium\">gesti di ogni giorno.<\/span>",
-  },
-  {
-    id: "età adulta",
-    name: "Osteopatia per l'Età Adulta",
-    description:
-      "Vuoi fare fronte ai dolori in modo delicato e naturale?<br>Hai mal di schiena?<br>Gli impegni giornalieri a volte sono troppi e sei in affanno?<br>Nell’era moderna, lo stress è diventato un compagno costante della vita quotidiana, influenzando sia <span class=\"font-medium\">uomini che donne<\/span>. Le pressioni lavorative, le aspettative sociali e le responsabilità familiari contribuiscono ad un livello di tensione spesso difficile da gestire, con conseguenze sul <span class=\"font-medium\">benessere fisico e mentale<\/span>. Possono dunque insorgere, con uno <span class=\"font-medium\">stress prolungato nel tempo<\/span>, problematiche come: <span class=\"italic\">ansia, insonnia,cefalea, contratture muscolari di vario genere, disturbi digestivi/intestinali<\/span> e in più per la donna anche disagi legati alle varie <span class=\"italic\">fasi del ciclo mestruale<\/span>. L’osteopatia dà un valido aiuto utilizzando tecniche miofasciali, manipolazioni articolari e trattamenti cranio-sacrali. Questi approcci migliorano la mobilità, la circolazione in generale riducendo le tensioni e favorendo un buon rilassamento. <span class=\"font-medium\">Il trattamento osteopatico, integrato con uno stile di vita sano, dell’attività fisica e una corretta alimentazione, diventa un prezioso alleato per affrontare le sfide quotidiane dell’età adulta.<\/span>",
   },
 
   /*   {
