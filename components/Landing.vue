@@ -47,7 +47,7 @@
             <span class="font-medium not-italic">prevenzione</span> promuovendo
             e mantenendo lo stato di
             <span class="font-medium not-italic">salute </span> dell'individuo.
-            E' una terapia manuale basata sulla comprensione della struttura e
+            E' una <span class="font-medium">terapia manuale</span> basata sulla comprensione della struttura e
             delle molteplici funzioni del <span class="font-medium">corpo umano</span>.
           </p>
       <Tecniques alt></Tecniques>

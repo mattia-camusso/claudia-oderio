@@ -5,7 +5,7 @@
       :class="
         store.bannerToggle ? '' : 'translate-y-52 bottom-[-13rem] !important'
       "
-      class="bshadow mx-4 md:mx-8 p-6 gap-6 flex flex-col transition-all duration-500 fixed bottom-0 w-fit z-[1000] bg-c-1 rounded-t-xl"
+      class="bshadow mx-4 md:mx-8 p-4 gap-6 flex flex-col transition-all duration-500 fixed bottom-0 w-fit z-[1000] bg-c-1 rounded-t-xl"
     >
       <p class="text-style-3 text-center leading-relaxed text-balance">
         Questo sito utilizza solo cookie tecnici, essenziali per il suo corretto funzionamento. Non utilizziamo cookie di profilazione o di terze parti. Continuando a navigare, acconsenti all'uso di questi cookie.
