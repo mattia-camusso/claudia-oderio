@@ -1,8 +1,7 @@
 <template>
   <template>
     <div>
-        <embed src="/informativa-privacy.pdf" width="1440px" height="900px" />
-        
+      <object width="1440" height="900" data="/informativa-privacy.pdf"></object>
     </div>
 </template>
 </template>
