@@ -29,7 +29,7 @@ export default defineNuxtConfig({
   alias: {
     "@": resolve(__dirname, "/"),
   },
-  modules: ["@pinia/nuxt", "@nuxtjs/sitemap"],
+  modules: ["@pinia/nuxt", "@nuxtjs/sitemap", "@nuxtjs/robots"],
   /*   ui: {
     global: true,
   }, */
