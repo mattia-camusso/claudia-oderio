@@ -10,8 +10,6 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@nuxtjs/robots": "^5.2.9",
-    "@nuxtjs/sitemap": "^7.2.10",
     "@pinia/nuxt": "^0.5.1",
     "@vueuse/components": "^10.9.0",
     "lock-body-scroll": "^1.0.0",

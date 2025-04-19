@@ -47,7 +47,7 @@ export const treatments = [
     id: "sacrale",
     name: "Tecniche cranio-sacrali",
     description:
-      '"La struttura governa la funzione" (A.T. Still) \n Si tratta l’apparato muscolo-scheletrico. Con il trattamento articolare, che può includere il tipico "scrocchio" delicato e deciso, si migliorano disturbi legati a muscoli, nervi, legamenti e a problematiche come dolori cervicali, lombari, slogature e tensioni. Un approccio particolarmente utile è quello all\'articolazione temporo-mandibolare (ATM), che aiuta a risolvere problemi legati a malocclusioni, bruxismo, serraggio dei muscoli masticatori, mal di testa e acufeni.',
+      '"La struttura governa la funzione" (A.T. Still) \n Si tratta l’apparato muscolo-scheletrico. Con il trattamento articolare, che può includere il tipico "scrocchio" delicato e deciso, si migliorano disturbi legati a muscoli, nervi, legamenti e a problematiche come dolori cervicali, lombari, slogature e tensioni. Un approccio particolarmente utile è quello all\'articolazione temporo-mandibolare (ATM), che aiuta a risolvere problemi legati a malocclusioni, bruxismo, serramento dei muscoli masticatori, mal di testa e acufeni.',
   },
   {
     id: "viscerale",
@@ -75,5 +75,5 @@ export const tecniques = [{
 }, {
   title:"Tecniche strutturali",
   img: "muscular",
-  content: "<span class=\"italic\">\"La struttura governa la funzione\"<\/span> <br><span class=\"italic\">-A.T. Still<\/span><br> Si tratta l’<span class=\"font-medium\">apparato muscolo-scheletrico<\/span>. Con il trattamento articolare, che può includere il tipico \"scrocchio\" delicato e deciso, si migliorano disturbi legati a muscoli, nervi, legamenti e a problematiche come dolori <span class=\"font-medium\">cervicali, lombari, slogature e tensioni<\/span>. Un approccio particolarmente utile è quello all'<span class=\"font-medium\">articolazione temporo-mandibolare (ATM)<\/span>, che aiuta a risolvere problemi legati a <span class=\"italic\">malocclusioni, bruxismo, serraggio dei muscoli masticatori, mal di testa e acufeni<\/span>.",
+  content: "<span class=\"italic\">\"La struttura governa la funzione\"<\/span> <br><span class=\"italic\">-A.T. Still<\/span><br> Si tratta l’<span class=\"font-medium\">apparato muscolo-scheletrico<\/span>. Con il trattamento articolare, che può includere il tipico \"scrocchio\" delicato e deciso, si migliorano disturbi legati a muscoli, nervi, legamenti e a problematiche come dolori <span class=\"font-medium\">cervicali, lombari, slogature e tensioni<\/span>. Un approccio particolarmente utile è quello all'<span class=\"font-medium\">articolazione temporo-mandibolare (ATM)<\/span>, che aiuta a risolvere problemi legati a <span class=\"italic\">malocclusioni, bruxismo, serramento dei muscoli masticatori, mal di testa e acufeni<\/span>.",
 }]
