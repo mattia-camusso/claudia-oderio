@@ -11,8 +11,6 @@
   },
   "dependencies": {
     "@pinia/nuxt": "^0.5.1",
-    "@vueuse/components": "^10.9.0",
-    "lock-body-scroll": "^1.0.0",
     "nuxi": "^3.19.1",
     "nuxt": "^3.10.3",
     "pinia": "^2.1.7",
