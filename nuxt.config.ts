@@ -37,7 +37,7 @@ export default defineNuxtConfig({
             "@type": "MedicalBusiness",
             "name": "Claudia Oderio Osteopata",
             "description": "Trattamenti osteopatici professionali per adulti, bambini, donne in gravidanza e sportivi.",
-            "url": "https://www.claudiaoderio.it"
+            "url": "https://www.osteopataclaudiaoderio.it"
           })
         }
       ],
@@ -47,7 +47,7 @@ export default defineNuxtConfig({
         { rel:"icon", type:"image/png", sizes:"32x32", href:"/favicon-32x32.png"},
         { rel:"icon", type:"image/png", sizes:"16x16", href:"/favicon-16x16.png"}, 
         { rel:"manifest", href:"/site.webmanifest"},
-        { rel: "canonical", href: "https://www.claudiaoderio.it" }
+        { rel: "canonical", href: "https://www.osteopataclaudiaoderio.it" }
       ],
     },
   },
