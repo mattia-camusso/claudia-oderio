@@ -52,7 +52,7 @@ export default defineNuxtConfig({
     },
   },
   site: {
-    url: 'https://www.claudiaoderio.it',
+    url: 'https://www.osteopataclaudiaoderio.it',
     name: 'Claudia Oderio Osteopata',
   },
   sitemap: {
