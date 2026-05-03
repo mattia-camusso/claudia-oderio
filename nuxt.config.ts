@@ -55,6 +55,9 @@ export default defineNuxtConfig({
     url: 'https://www.claudiaoderio.it',
     name: 'Claudia Oderio Osteopata',
   },
+  sitemap: {
+    exclude: ['/notfound']
+  },
   alias: {
     "@": resolve(__dirname, "/"),
   },
