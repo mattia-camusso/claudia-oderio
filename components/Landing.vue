@@ -104,7 +104,36 @@
                 me un continuo arricchimento, non solo a livello professionale,
                 ma anche umano.
               </p>
-              <p class="font-medium">Grazie</p>
+              <h5 class="uppercase text-style-1 font-medium text-c-4 my-3">
+                Curriculum in breve
+              </h5>
+              <ul class="list-disc flex flex-col gap-2">
+                <li>
+                  <strong>Diploma in Osteopatia</strong> conseguito presso la Scuola CERDO (1998) con iscrizione al Registro degli Osteopati d'Italia (ROI).
+                </li>
+                <li>
+                  <strong>Diploma ISEF</strong> (1990), con qualifica tecnica di istruttore e docenze in ginnastica dolce posturale dal 2016.
+                </li>
+                <li>
+                  Specializzazione avanzata in <strong>osteopatia neonatale e pediatrica</strong>, consolidata attraverso decine di corsi di aggiornamento (dal 2003 ad oggi).
+                </li>
+                <li>
+                  Continua formazione post-graduate in <strong>osteopatia viscerale, ginecologica, cranio-sacrale e approccio miofasciale</strong>.
+                </li>
+                <li>
+                  Esperienze lavorative in studi medici a Torino e Jesi (1997-2008), precedute dall'attività nel reparto di massoterapia del Grand Hotel Billia (1991-1997).
+                </li>
+              </ul>
+              <a
+                href="/cv-claudia-oderio.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="inline-block mt-4 text-c-2 font-medium"
+              >
+                <TextUnderlineAnimated color="2">
+                  Consulta il mio CV completo
+                </TextUnderlineAnimated>
+              </a>
             </div>
           </div>
           <div class="mb-12 md:mt-24">
@@ -241,7 +270,7 @@
     <div class="bg-c-2 rounded-t-3xl flex items-center justify-center">
       <span
         class=" text-center text-c-1 text-style-4 py-6 px-4 leading-[1.525] md:py-8"
-        >Claudia Oderio Osteopata | Partita IVA: 00649480076 | <a href="/privacy">Privacy Policy</a> | Sito web a cura di <a href="https://mcwdesign.it" target="_blank">MCW Design</a></span
+        >Claudia Oderio Osteopata | Partita IVA: 00649480076 | <a href="/privacy">Privacy Policy</a> </span
       >
     </div>
   </footer>

@@ -18,6 +18,8 @@
   "[css]": {
     "editor.defaultFormatter": "vscode.css-language-features"
   },
+  "scss.lint.unknownAtRules": "ignore",
+  "css.lint.unknownAtRules": "ignore",
   "[svg]": {
     "editor.defaultFormatter": "jock.svg"
   }

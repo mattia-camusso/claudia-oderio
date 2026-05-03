@@ -31,7 +31,8 @@
           "   
           class="relative overflow-hidden" 
         > 
-          <img  
+          <NuxtImg  
+          format="webp"
           class="object-right md:ml-24 w-[100vw] object-fill"
           :src="`/${getId}.png`"
           :alt="`Trattamento osteopatico ${getId}`"
