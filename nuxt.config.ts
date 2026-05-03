@@ -18,7 +18,7 @@ export default defineNuxtConfig({
       meta: [
         { charset: "utf-8" },
         { name: "viewport", content: "width=device-width, initial-scale=1" },
-        { hid: "description", name: "description", content: "Claudia Oderio, Osteopata. Trattamenti osteopatici per adulti, bambini, donne in gravidanza e sportivi per ritrovare il benessere fisico." },
+        { name: "description", content: "Claudia Oderio, Osteopata. Trattamenti osteopatici per adulti, bambini, donne in gravidanza e sportivi per ritrovare il benessere fisico." },
         { name: "keywords", content: "osteopata, osteopatia, claudia oderio, trattamenti osteopatici, dolore cervicale, mal di schiena, postura, osteopatia pediatrica, gravidanza" },
         { property: "og:title", content: "Claudia Oderio - Osteopata" },
         { property: "og:description", content: "Trattamenti osteopatici professionali per adulti, bambini, donne in gravidanza e sportivi." },
@@ -32,7 +32,7 @@ export default defineNuxtConfig({
       script: [
         {
           type: 'application/ld+json',
-          children: JSON.stringify({
+          innerHTML: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "MedicalBusiness",
             "name": "Claudia Oderio Osteopata",
