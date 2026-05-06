@@ -64,7 +64,7 @@ import { useMainStore } from "../stores/myStore";
 
 const store = useMainStore();
 
-const select = (product) => {
+const select = (product: { id: string; name: string; description: string; }) => {
   store.selectProduct(product);
 };
 

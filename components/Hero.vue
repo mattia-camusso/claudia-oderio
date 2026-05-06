@@ -24,8 +24,7 @@
         alt="Osteopata valle d'aosta saint-vincent"
       />
     </div>
-    <NuxtImg
-      format="webp"
+    <img
       src="~/assets/claudia2.png"
       class="h-3/5 sm:h-3/4 xl:h-full max-h-[85svh] xl:max-h-full absolute right-0 bottom-16 md:-bottom-[20svh]"
       alt="Claudia oderio osteopata"

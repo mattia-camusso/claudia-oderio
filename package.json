@@ -22,6 +22,8 @@
     "@nuxtjs/sitemap": "^8.0.15",
     "@nuxtjs/tailwindcss": "^6.11.4",
     "@types/node": "^20.11.26",
-    "sass": "^1.75.0"
+    "nuxt-site-config": "^4.0.8",
+    "sass": "^1.75.0",
+    "vue-tsc": "^2.2.12"
   }
 }

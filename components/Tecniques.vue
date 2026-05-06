@@ -1,7 +1,7 @@
 <template>
   <div class="ml-6 md:ml-24 mt-24">
     <h3 class="text-style-bigger text-c-4 font-thin mb-12">POSTURA</h3>
-    <NuxtImg format="webp" src="~/assets/fascia.png" alt="Sistema fasciale osteopata" class="mx-auto max-h-[60svh] mb-6" />
+    <img src="~/assets/fascia.png" alt="Sistema fasciale osteopata" class="mx-auto max-h-[60svh] mb-6" />
     <p class="text-style-4 leading-[1.525] md:mr-24 mr-6 font-light">Si parla spesso di <span class="font-medium">postura</span> perché l'essere umano, nel corso della sua vita, assume quotidianamente diverse <span class="font-medium">posizioni del corpo nello spazio</span>. Le posture più comuni sono quelle da in piedi, seduto, in movimento e sdraiato. La postura non riguarda solo l’aspetto fisico, ma ha anche una valenza psicologica, in quanto riflette la <span class="font-medium">relazione</span> che la persona ha con il <span class="font-medium">mondo esterno</span> e la sua <span class="font-medium">capacità di adattamento</span>.
       
       L'osteopata, dopo aver osservato la postura del paziente e aver effettuato i necessari <span class="font-medium">test</span>, utilizza specifiche <span class="font-medium">tecniche</span> che, per praticità, vengono suddivise in tre categorie:
@@ -33,7 +33,7 @@ import { onMounted, ref } from "vue";
 import { tecniques } from "../constants";
 const current = ref("skeletal");
 
-const toggling = (img)=> {
+const toggling = (img: string)=> {
   current.value = img;
 }
 const props = defineProps({
@@ -45,7 +45,7 @@ onMounted(() => {
 
 accSingleTriggers.forEach(trigger => trigger.addEventListener('click', toggleAccordion));
 
-function toggleAccordion() {
+function toggleAccordion(this: any) {
   const items = document.querySelectorAll('.js-acc-item');
   const thisItem = this.parentNode;
 
