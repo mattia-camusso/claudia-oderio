@@ -109,19 +109,19 @@
               </h5>
               <ul class="list-disc flex flex-col gap-2">
                 <li>
-                  <strong>Diploma in Osteopatia</strong> conseguito presso la Scuola CERDO (1998) con iscrizione al Registro degli Osteopati d'Italia (ROI).
+                  <strong>Diploma di Osteopatia</strong> conseguito presso la Scuola CERDO (1998) con iscrizione al Registro degli Osteopati d’Italia (ROI).
                 </li>
                 <li>
-                  <strong>Diploma ISEF</strong> (1990), con qualifica tecnica di istruttore e docenze in ginnastica dolce posturale dal 2016.
+                  <strong>Diploma ISEF</strong> equiparato alla Laurea in Scienze Motorie (L. 136/2002) (1990) e qualifica tecnica di istruttore (Registro Albo Nazionale Libertas) in ginnastica dolce posturale (2016).
                 </li>
                 <li>
-                  Specializzazione avanzata in <strong>osteopatia neonatale e pediatrica</strong>, consolidata attraverso decine di corsi di aggiornamento (dal 2003 ad oggi).
+                  Specializzazione avanzata in <strong>osteopatia neonatale e pediatrica</strong>, consolidata attraverso corsi di aggiornamento (dal 2003 ad oggi).
                 </li>
                 <li>
-                  Continua formazione post-graduate in <strong>osteopatia viscerale, ginecologica, cranio-sacrale e approccio miofasciale</strong>.
+                  Continua formazione post-graduate in <strong>osteopatia viscerale, cranio-sacrale, approccio mio fasciale e posturale globale</strong> rivolta a tutte le fasce di età.
                 </li>
                 <li>
-                  Esperienze lavorative in studi medici a Torino e Jesi (1997-2008), precedute dall'attività nel reparto di massoterapia del Grand Hotel Billia (1991-1997).
+                  <strong>Libera professionista</strong> presso studio privato dal 1997 ad oggi.
                 </li>
               </ul>
               <a
