@@ -125,7 +125,7 @@
                 </li>
               </ul>
               <a
-                href="/cv-claudia-oderio.pdf"
+                href="/cv-claudia-oderio-2.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="inline-block mt-4 text-c-2 font-medium"
